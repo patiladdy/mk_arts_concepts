@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#161513">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..500,50;1,9..144,200..500,50&family=JetBrains+Mono:wght@400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem('mk-theme')}catch(e){}if(!t){var h=new Date().getHours();t=(h>=19||h<6)?'night':'day'}d.setAttribute('data-theme',t);d.classList.add('js')})()</script>
+
+<title>Project — MK Art Concepts</title>
+<meta name="description" content="Interior project by MK Art Concepts, Solapur.">
+<meta property="og:image" content="assets/img/hero-day.webp">
+</head>
+<body id="top" class="has-hero">
+<a class="skip" href="#main" style="position:absolute;left:-999px">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="MK Art Concepts — home">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38"/><path d="M8 30V10l6 11 6-11v20"/><path class="acc" d="M25 10v20M25 21l8-11M27.5 18l6 12"/></svg>
+    <span><b>MK Art Concepts</b><small>Interior Architects · Solapur</small></span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="index.html#work">Work</a>
+    <a href="index.html#walk">Walkthrough</a>
+    <a href="materials.html" data-page="materials">Materials</a>
+    <a href="index.html#studio">Studio</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <span class="toggle-txt">DAY</span>
+    <button class="toggle" aria-label="Switch day / night mode">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+<div class="mobile-menu" aria-label="Mobile">
+  <a href="index.html#work"><span>01</span>Work</a>
+  <a href="index.html#walk"><span>02</span>Walkthrough</a>
+  <a href="materials.html"><span>03</span>Materials</a>
+  <a href="index.html#studio"><span>04</span>Studio</a>
+  <a href="index.html#contact"><span>05</span>Contact</a>
+  <div class="mm-foot mono"><a style="font:inherit" href="tel:+917447345566">074473 45566</a><span>Hotagi Road, Solapur</span></div>
+</div>
+
+<main id="main">
+  <section class="p-hero" id="pHero">
+    <div class="hero-layer hero-photo"><img id="pPhoto" alt=""></div>
+    <div class="hero-layer hero-sketch" aria-hidden="true"><img id="pSketch" alt=""></div>
+    <div class="hero-shade"></div>
+    <span class="hero-tag t1">Reality</span>
+    <span class="hero-tag t2">The sketch</span>
+    <div class="hero-handle"><button aria-label="Drag to compare sketch and finished room" data-cursor="DRAG">DRAG</button></div>
+    <div class="hero-copy">
+      <span class="label" id="pKind">Project</span>
+      <h1 class="display" id="pTitle">Project</h1>
+    </div>
+    <div class="hero-meta"><span class="mono" id="pNoMeta"></span><span class="mono">MK Art Concepts · Solapur</span></div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="p-intro">
+      <span class="chapter-no rv" id="pNo">01</span>
+      <p class="lede rv" id="pLede"></p>
+      <dl class="spec rv" id="pSpec"></dl>
+    </div>
+  </section>
+
+  <nav class="space-nav" id="spaceNav" aria-label="Spaces in this project"></nav>
+  <div class="wrap" id="spaces"></div>
+
+  <a class="next-proj" id="nextProj" href="#" data-cursor="NEXT">
+    <img id="nextImg" alt="" loading="lazy">
+    <div class="in-copy"><span class="label">Next project</span><h2 class="display" id="nextTitle"></h2></div>
+  </a>
+</main>
+<footer class="footer">
+  <span>© <span data-year></span> MK Art Concepts · Interior Architects</span>
+  <span><a href="tel:+917447345566">074473 45566</a> · <a href="https://maps.app.goo.gl/VQPH1AhUaQkoyTFZ7" target="_blank" rel="noopener">JWW7+V9 Solapur</a></span>
+  <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+</footer>
+<a class="wa-float" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.6 4.9 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg></a>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/project.js"></script>
+</body>
+</html>

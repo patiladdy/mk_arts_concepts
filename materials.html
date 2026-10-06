@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#161513">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..500,50;1,9..144,200..500,50&family=JetBrains+Mono:wght@400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem('mk-theme')}catch(e){}if(!t){var h=new Date().getHours();t=(h>=19||h<6)?'night':'day'}d.setAttribute('data-theme',t);d.classList.add('js')})()</script>
+
+<title>Material Moodboard — MK Art Concepts, Solapur</title>
+<meta name="description" content="Brass, jaali, velvet, leather, handmade tile, timber and light — explore the materials behind MK Art Concepts interiors.">
+</head>
+<body class="mood-page">
+<a class="skip" href="#main" style="position:absolute;left:-999px">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="MK Art Concepts — home">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38"/><path d="M8 30V10l6 11 6-11v20"/><path class="acc" d="M25 10v20M25 21l8-11M27.5 18l6 12"/></svg>
+    <span><b>MK Art Concepts</b><small>Interior Architects · Solapur</small></span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="index.html#work">Work</a>
+    <a href="index.html#walk">Walkthrough</a>
+    <a href="materials.html" data-page="materials">Materials</a>
+    <a href="index.html#studio">Studio</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <span class="toggle-txt">DAY</span>
+    <button class="toggle" aria-label="Switch day / night mode">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+<div class="mobile-menu" aria-label="Mobile">
+  <a href="index.html#work"><span>01</span>Work</a>
+  <a href="index.html#walk"><span>02</span>Walkthrough</a>
+  <a href="materials.html"><span>03</span>Materials</a>
+  <a href="index.html#studio"><span>04</span>Studio</a>
+  <a href="index.html#contact"><span>05</span>Contact</a>
+  <div class="mm-foot mono"><a style="font:inherit" href="tel:+917447345566">074473 45566</a><span>Hotagi Road, Solapur</span></div>
+</div>
+
+<main id="main">
+  <div class="mood-ui">
+    <div class="mood-title">
+      <span class="label">Material library</span>
+      <h1 class="display">The <em>moodboard.</em></h1>
+      <p>Drag the board to look around. Pick a material to highlight every room it was used in. Click any photo to enlarge it.</p>
+      <span class="mood-count" id="moodCount"></span>
+    </div>
+    <div class="filters" id="filters"></div>
+  </div>
+  <div class="board-viewport" id="viewport" data-cursor="DRAG"><div class="board" id="board"></div></div>
+  <div class="mood-hint"><span>Drag · scroll · or use arrow keys</span><button id="recenter">Recenter</button><a href="index.html#work" style="text-decoration:underline;text-underline-offset:3px">Projects</a></div>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/materials.js"></script>
+</body>
+</html>
